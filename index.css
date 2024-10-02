@@ -360,8 +360,79 @@ section{
    opacity: 1;
    color: #39DD73;
 }
-
-/* .popular .artist-top{
+.popular-head{
+   padding: 0px 10px;
+}
+.section-one{
+   display: flex;
+   gap: 20px;
+}
+.popular{
    display: flex;
    justify-content: space-between;
-} */
+   padding: 22px 20px;
+}
+.popular h3{
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.popular p{
+   color: #fff;
+   cursor: pointer;
+}
+.popular p:hover{
+   text-decoration: underline;
+}
+.popular h3:hover{
+   text-decoration: underline;
+}
+.albums .album-photo{
+   height: 240px;
+   width: 167px;
+   cursor: pointer;
+   border-radius: 5%;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    position: relative; 
+   }
+   .album-photo img{
+      width: 92%;
+      border-radius: 10%;
+      margin-bottom: 10px;
+      padding-left: 10px;
+      padding-top: 5px;
+   }
+   .album-photo i{
+      position: absolute; 
+      top: 50%; 
+      left: 70%; 
+      transform: translate(-50%, -50%); 
+      font-size: 54px;
+      opacity: 0; 
+      transition: opacity 0.5s ease; 
+   }
+   .album-photo .name{
+      color: #FFFFFF;
+      padding: 2px 10px;
+      font-size: 16px;
+   }
+   .album-photo .name:hover{
+      text-decoration: underline;
+   }
+   .album-photo p{
+      color: #A5B3B3;
+      padding: 5px 10px;
+      font-size: 14px;
+   }
+   .album-photo p:hover{
+      text-decoration: underline;
+   }
+   .album-photo:hover{
+      background-color: #1F1F1F;
+      color: white;
+   }
+   .album-photo:hover i {
+      opacity: 1;
+      color: #39DD73;
+   }
