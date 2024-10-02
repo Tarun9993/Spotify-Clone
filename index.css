@@ -27,7 +27,6 @@ nav{
     align-items: center;
     gap: 10px;
     padding-top: 10px;
-    /* justify-content: space-between; */
 }
 .mid #home{
     color: #dbd9d9;
@@ -41,7 +40,7 @@ nav{
     cursor: pointer;
  }
  #home:hover{
-   transform: scale(1.1); /* Zoom effect */
+   transform: scale(1.1); 
    transition: transform 0.5s ease; 
  }
  .search{
@@ -94,8 +93,8 @@ nav{
  }
  .login:hover {
     background-color: #bfbcbc;
-    transform: scale(1.1); /* Zoom effect */
-    transition: transform 0.3s ease; /* Smooth transition */
+    transform: scale(1.1); 
+    transition: transform 0.3s ease; 
 }
 .signup{
     color:#a2a2a2;
@@ -112,7 +111,6 @@ nav{
    gap: 10px;
    height: calc(90% - 55px);
    padding: 10px;
-   /* position: relative; */
 }
 
 .left {
@@ -120,7 +118,6 @@ nav{
    height: 100%; 
    background-color: #252525;
    position: sticky;
-   /* top: 0;  */
    border-radius: 2%;
 }
 
@@ -167,8 +164,8 @@ nav{
    padding: 15px 0px;
    gap: 10px;
    height: 280px;
-   overflow-y: auto; /* Enable scrolling */
-   scrollbar-width: none; /* Hide scrollbar for Firefox */
+   overflow-y: auto; 
+   scrollbar-width: none; 
    
 }
 .top{
@@ -207,7 +204,6 @@ nav{
   display: flex;
   flex-wrap: wrap;
   gap: 15px;
-  /* padding: 55px 20px; */
   padding-top: 45px;
   padding-left: 20px;
   padding-right: 20px;
@@ -239,10 +235,8 @@ nav{
    height: 33px;
    border: 1px solid #a2a2a2;
    border-radius: 15px;
-   /* text-align: center; */
    padding-top: 5px;
    padding-left: 5px;
-   /* transition: transform 0.5s ease; */
 }
 .english i{
     font-size: 18px;
@@ -435,4 +429,52 @@ section{
    .album-photo:hover i {
       opacity: 1;
       color: #39DD73;
+   }
+
+   .fotter{
+      display: flex;
+      justify-content: space-between;
+   }
+   footer{
+      padding: 60px 40px;
+   }
+   .fotter h4{
+      color: #F0FFFF;
+      font-weight: 400;
+   }
+   .fotter h6{
+      color:#a9a7a7 ;
+      padding-top: 15px;
+      font-size: 17px;
+      font-weight: 400;
+      font-family:Arial, Helvetica, sans-serif;
+      cursor: pointer;
+   }
+   .fotter h6:hover{
+      color: #F0FFFF;
+      text-decoration: underline;
+   }
+    .fifth i{
+      color: white;
+      background-color: #353434;
+      padding: 12px;
+      border-radius: 50%;
+      cursor: pointer;
+      margin: 0 5px;
+      font-size: 20px;
+    }
+    .fifth i:hover{
+      background-color: #535353;
+      color: white;
+   }
+   .copy-right{
+   border-top: 1px solid #535353;
+   padding: 0px 10px;
+   padding-top: 45px;
+   padding-bottom: 70px;
+   color: #bfbcbc;
+   font-size: 16px;
+   font-weight: 400;
+   margin-left: 35px; 
+   margin-right: 35px;
    }
