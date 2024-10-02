@@ -225,6 +225,9 @@ nav{
    text-decoration: none;
    padding-left: 20px;
 }
+.cook a:hover{
+   text-decoration: underline;
+}
 .english{
    padding: 30px 30px;
    color: #fff;
@@ -284,3 +287,81 @@ nav{
    font-size: 17px;
    border: none;
 }
+.right .artist-top{
+  display: flex;
+  justify-content: space-between;
+  padding: 22px 28px;
+}
+.artist-top h3{
+   color: #fff;
+   font-size: 24px;
+   font-weight: bold;
+   cursor: pointer;
+}
+.artist-top p{
+   color: #fff;
+   cursor: pointer;
+}
+.artist-top p:hover{
+   text-decoration: underline;
+}
+.artist-top h3:hover{
+   text-decoration: underline;
+}
+section{
+   display: flex;
+   gap: 6px;
+}
+.right .artist-photos{
+   padding: 1px 15px;
+   position: relative; 
+}
+.right .artist-photos .photo{
+   height: 230px;
+   width: 150px;
+   cursor: pointer;
+   border-radius: 5%;
+    transition: transform 0.5s ease, background-color 0.5s ease;
+    position: relative; 
+   }
+.photo img{
+   width: 92%;
+   border-radius: 50%;
+   margin-bottom: 10px;
+   padding-left: 10px;
+   padding-top: 5px;
+}
+.photo i{
+   position: absolute; 
+   top: 50%; 
+   left: 70%; 
+   transform: translate(-50%, -50%); 
+   font-size: 54px;
+   opacity: 0; 
+   transition: opacity 0.5s ease; 
+}
+.photo .name{
+   color: #FFFFFF;
+   padding: 2px 10px;
+   font-size: 16px;
+}
+.photo .name:hover{
+   text-decoration: underline;
+}
+.photo p{
+   color: #A5B3B3;
+   padding: 5px 10px;
+}
+.photo:hover{
+   background-color: #1F1F1F;
+   color: white;
+}
+.photo:hover i {
+   opacity: 1;
+   color: #39DD73;
+}
+
+/* .popular .artist-top{
+   display: flex;
+   justify-content: space-between;
+} */
